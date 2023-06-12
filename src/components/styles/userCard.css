@@ -1,0 +1,55 @@
+.card {
+  width: 100%;
+  border: solid 0.1em;
+  border-color: #00000050;
+  border-radius: 0.2em;
+  max-width: 350px;
+  padding: 1em;
+}
+.card__title {
+  padding-bottom: 0.7em;
+}
+.card__hr {
+  border: none;
+  height: 0.1em;
+  background-color: #00000050;
+}
+.card__list {
+  padding: 1em 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.card__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+.card__label {
+  color: #00000050;
+  text-transform: uppercase;
+}
+.card__btns {
+  display: flex;
+  justify-content: right;
+  padding-top: 1em;
+  gap: 0.5em;
+}
+.card__btn-delete{
+  font-size: 1.5em;
+  padding: 0.1em 0.3em;
+  color: #fff;
+  background-color: #D95F5F;
+  border: none;
+  border-radius: 0.2em;
+  cursor: pointer;
+}
+.card__btn-edit{
+  font-size: 1.5em;
+  padding: 0.1em 0.2em;
+  color: #00000050;
+  background-color: #5A618C10;
+  border: solid 0.1em;
+  border-radius: 0.2em;
+  cursor: pointer;
+}
